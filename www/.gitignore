@@ -1,8 +1,4 @@
-temp
-dist
-app-cov/
-coverage.html
-components/
-build/
-test/build/*.js
+*.swp
+.DS_Store
 node_modules/
+npm-debug.log
