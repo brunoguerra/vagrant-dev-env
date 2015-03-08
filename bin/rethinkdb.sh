@@ -6,4 +6,4 @@
 
 apt-packages-ppa 'rethinkdb/ppa'
 apt-packages-update
-apt-packages-install rethinkdb
+apt-packages-install-force rethinkdb

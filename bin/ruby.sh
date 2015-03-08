@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo su
+
 cd /tmp
 wget http://cache.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p353.tar.gz
 tar -xvzf ruby-2.0.0-p353.tar.gz
@@ -12,7 +14,7 @@ apt-packages-install \
   rake               \
   rbenv
 
-#apt-packages-install \
+# apt-packages-install \
   #ruby1.9.1          \
   #ruby1.9.1-dev      \
   #rubygems1.9.1      \
@@ -26,5 +28,4 @@ ruby-gems-install sass
 ruby-gems-install compass
 ruby-gems-install bundler
 ruby-gems-install railsless-deploy
-ruby-gems-install capistrano
-
+ruby-gems-install rvm-capistrano
